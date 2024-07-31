@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.site{
+    background: rgb(18, 18, 27);
+
+}
+a{
+    text-decoration: none !important;
+}
+nav{
+    background: rgb(18, 18, 27);
+    z-index: 9999;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+} 
+.herof{
+    height:84vh;
+    background: rgb(18, 18, 27);
+}
+.herof button:hover{
+    transform: scale(1.2);
+transition: all ease 0.5s;
+}
+.herof img{
+    height: 230px;
+}
+footer{
+    background: rgb(18, 18, 27);
+
+}
+footer img{
+    width: 60px;
+}
+#featured-3{
+    background: rgb(18, 18, 27);
+        color: #fff;
+}
+section{
+    height: 100vh;
+}
+section .container{
+    height: 100vh !important;
+}
+.alph{
+    height: 100vh;
+}
+.album{
+    background: rgb(18, 18, 27);
+    height: 100vh;
+}
+.album .col{
+    margin-top: 10% !important;
+}
+.album .col .card{
+    height: 50vh;
+}
+.album .col .card img{
+    height:65vh !important;
+}
+body{
+    background: rgb(18, 18, 27) !important;
+
+}
+.form-signin {
+    height: 100vh; 
+}
+.form-signin form{
+    margin-top: 10% !important;
+}
